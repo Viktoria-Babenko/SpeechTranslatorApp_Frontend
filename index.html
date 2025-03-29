@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Speech to Text + Translate + Voice</h1>
+  <button id="record">🔴 Записать</button>
+  <button id="stop">⏹️ Остановить</button>
+  <p id="status">Статус: Ожидание...</p>
+  <p>Распознанный текст: <span id="result"></span></p>
+  <p>Перевод: <span id="translation"></span></p>
+  <audio id="audio" controls></audio>
+
+  <script src="recorder.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
