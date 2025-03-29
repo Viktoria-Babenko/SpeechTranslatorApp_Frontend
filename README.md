@@ -1,0 +1,1 @@
+# SpeechTranslatorApp_Frontend
